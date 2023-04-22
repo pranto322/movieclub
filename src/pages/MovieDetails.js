@@ -24,7 +24,7 @@ const MovieDetails = () => {
 
     }
     fetchMovie();
-  },[])
+  },[params.id])
 
 
   return (
